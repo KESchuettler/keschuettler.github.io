@@ -701,8 +701,9 @@ ul.work li.active {
 .githubs>li {
   text-decoration: none;
   padding: 2em;
+}
+.githubs>li>a {
   color: white;
-
 }
 
 
