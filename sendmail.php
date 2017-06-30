@@ -20,7 +20,7 @@ if( isset($name) && isset($email) && isset($subject) && isset($message) && is_em
 	}
 
 	// Email will be send
-	$to = "admin@wordpressboss.com"; // Change with your email address
+	$to = "keschuettler@gmail.com"; // Change with your email address
 	$sub = $subject; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
@@ -29,7 +29,7 @@ if( isset($name) && isset($email) && isset($subject) && isset($message) && is_em
 	<strong>Message:</strong> $message <br>
 EOD;
 //Must end on first column
-	
+
 	$headers = "From: $name <$email>\r\n";
 	$headers .= 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
