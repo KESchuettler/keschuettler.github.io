@@ -698,6 +698,11 @@ ul.work li.active {
     transition: .3s;
 }
 
+.githubs > li {
+  text-decoration: none;
+  padding: 2em;
+  
+}
 
 
 /*
